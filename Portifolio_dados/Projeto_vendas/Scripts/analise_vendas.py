@@ -3,4 +3,4 @@ import pandas as pd
 tabela = pd.read_csv("Projeto_vendas/Dados/vendas.csv", sep=",")
 print(tabela)
 
-print(tabela["preco_unitario"].sum())
+print(len(tabela))
